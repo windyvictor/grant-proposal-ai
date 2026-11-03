@@ -1,0 +1,14 @@
+{
+  "skill": "grant-proposal-ai",
+  "protocol": "每条查询在新会话运行 3 次；记录是否加载本技能及误路由原因。",
+  "queries": [
+    {"query": "按 2027 年国自然青年项目要求检查这份申请书。", "should_trigger": true},
+    {"query": "把研究目标、研究内容和关键科学问题理顺。", "should_trigger": true},
+    {"query": "根据我的前期工作改写项目创新点，不要夸大。", "should_trigger": true},
+    {"query": "这份技术路线没有验证闭环，请帮我重构。", "should_trigger": true},
+    {"query": "预算说明缺哪些依据？正式额度请按当年指南核对。", "should_trigger": true},
+    {"query": "帮我写一篇期刊论文的 Discussion。", "should_trigger": false},
+    {"query": "评价这个研究想法是否新颖。", "should_trigger": false},
+    {"query": "润色一份普通年度工作总结。", "should_trigger": false}
+  ]
+}

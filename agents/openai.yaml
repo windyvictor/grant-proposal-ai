@@ -1,0 +1,6 @@
+interface:
+  display_name: "课题与基金申请书"
+  short_description: "按年度指南、项目类别和真实研究基础组织可核对的基金申请论证"
+  default_prompt: "使用 $grant-proposal-ai 按资助机构、年度与项目类别修改这份申请材料，并标出仍需核实的信息。"
+policy:
+  allow_implicit_invocation: true
