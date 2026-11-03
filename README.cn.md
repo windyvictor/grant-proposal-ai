@@ -1,12 +1,21 @@
 # grant-proposal-ai
 
-[English](README.md) | 中文
+[English](README.md) | 中文 · [Research Skillbox 总导航](https://github.com/windyvictor/research-skillbox)
 
 > **课题 / 基金申请书**写作指南 —— 覆盖申报书全部组成部分 + 40 个结构化提示词模板。
 
 ## 一句话定位
 
 把 263 页的申报书写作专著，压缩成一份「查得到、用得上」的写作参考与提示词手册。
+
+## 你会得到什么
+
+- 动笔前先建立“科学问题—目标—研究内容—方法—验证证据”的对应关系
+- 立项依据、研究内容、技术路线、创新点、可行性、摘要和预算说明等具体稿件
+- 对已有研究基础与未来计划的严格区分，不把计划写成成果
+- 依据资助机构、年度、项目类别和正式模板形成的合规待核清单
+
+工作路径是：**确认当年申报要求 → 建立研究论证图 → 起草指定部分 → 检查内部对应关系 → 列出仍需核实的格式与额度**。语言可以后改，研究逻辑不能靠模板补出来。
 
 ## 何时触发
 
@@ -51,3 +60,12 @@ grant-proposal-ai/
 
 > 「帮我写国家自然科学基金面上项目的立项依据。」
 > 「申报书的『关键科学问题』该怎么提炼？给我一个提示词模板。」
+
+## 安装
+
+```bash
+git clone https://github.com/windyvictor/grant-proposal-ai.git
+ln -s "$PWD/grant-proposal-ai" ~/.agents/skills/grant-proposal-ai
+```
+
+其他宿主请把仓库放入对应的 skills 目录。正式格式、额度和期限以申报年度的官方指南为准。
